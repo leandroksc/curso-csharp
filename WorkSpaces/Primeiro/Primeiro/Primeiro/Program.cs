@@ -8,6 +8,7 @@ namespace Primeiro
         {
             Console.WriteLine("Hello World!");
             Console.WriteLine();
+			Console.WriteLine();
             string[] a = "teste de split".Split(' ');
 
             for (int i = 0; i < a.Length; i++) {
