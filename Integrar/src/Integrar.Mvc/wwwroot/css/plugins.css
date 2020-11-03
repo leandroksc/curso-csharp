@@ -9,7 +9,7 @@
   -ms-user-select: none;
   user-select: none;
 }
-.pace-inactive { 
+.pace-inactive {
   display: none;
 }
 .pace .pace-progress {

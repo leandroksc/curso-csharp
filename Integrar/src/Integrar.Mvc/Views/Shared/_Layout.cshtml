@@ -93,13 +93,13 @@
 
         @await Html.PartialAsync("PartialViews/_rightsidebar")
 
-
         <!-- .page-content -->
         <div class="page-content sidebar-page right-sidebar-page clearfix">
             <!-- .page-content-wrapper -->
             <div class="page-content-wrapper">
                 <div class="page-content-inner">
                     <!-- .page-content-inner -->
+
                     @await Html.PartialAsync("PartialViews/_subnavbar") 
 
                     @RenderBody()
@@ -122,5 +122,6 @@
 
     @await Html.PartialAsync("PartialViews/_scripts")
 
+    @RenderSection("scripts", required: false)
 </body>
 </html>
